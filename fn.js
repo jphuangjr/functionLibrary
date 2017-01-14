@@ -4,85 +4,86 @@ var fnLib = {
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
 		if(arguments.length < 1){
-			return "arguments: array, isValueObj, key";
+			return "Arguments: [array, isValueObj, key]";
 		}
-	    var lib  = {};
-	    var result = [];
-	    if (isValueObj) {
-	        array.forEach(function(value) {
-	            if (!lib[value[key]]) {
-	                lib[value[key]] = value;
-	                result.push(value);
-	            }
-	        });
-	    } else {
-	        array.forEach(function(value) {
-	            if (!lib[value]) {
-	                lib[value] = value;
-	                result.push(value);
-	            }
-	        });
-	    }
-	    return result;
+		var lib  = {};
+		var result = [];
+		if (isValueObj) {
+			array.forEach(function(value) {
+				if (!lib[value[key]]) {
+					lib[value[key]] = value;
+					result.push(value);
+				}
+			});
+		} else {
+			array.forEach(function(value) {
+				if (!lib[value]) {
+					lib[value] = value;
+					result.push(value);
+				}
+			});
+		}
+		return result;
 	},
 	toCamelCase : function(string) {
 		if(arguments.length < 1){
-			return "arguments: string";
+			return "Arguments: [string]";
 		}
-	    var arr = string.toLowerCase().replace(/([~!@#$%^&*()_+=`{}\[\]\|\\:;'<>,.\/? ])+/g, "-").replace(/^(-)+|(-)+$/g,"").split("");
-	    arr.forEach(function(value, i) {
-	        if (value === "-") {
-	            arr.splice(i,1);
-	            arr[i] = arr[i].toUpperCase();
-	        }
-	    });
-	    return arr.join("");
+		var arr = string.toLowerCase().replace(/([~!@#$%^&*()_+=`{}\[\]\|\\:;'<>,.\/? ])+/g, "-").replace(/^(-)+|(-)+$/g,"").split("");
+		arr.forEach(function(value, i) {
+			if (value === "-") {
+				arr.splice(i,1);
+				arr[i] = arr[i].toUpperCase();
+			}
+		});
+		return arr.join("");
 	},
 	filter : function(target , array){
 		if(arguments.length < 1){
-			return "arguments: target, array";
+			return "Arguments: [target, array"];
 		}
-	    var val = '^(?=.*\\b' + target.trim().split(/\s+/).join('\\b)(?=.*\\b') + ').*$';
-	    var reg = RegExp(val, 'i');
-	    var results = []
-	    array.forEach(function(value){
-	        if(reg.test(value)){
-	            results.push(value)
-	        }
-	    })
-	    return results;
+		var val = '^(?=.*\\b' + target.trim().split(/\s+/).join('\\b)(?=.*\\b') + ').*$';
+		var reg = RegExp(val, 'i');
+		var results = []
+		array.forEach(function(value){
+			if(reg.test(value)){
+				results.push(value)
+			}
+		})
+		return results;
 	},
 	sort: function(array, key, dir){
 		if(arguments.length < 1){
-			return "arguments: array, key, direction (ASC or DES)";
+			return "Arguments: [array, key, direction (ASC or DES)]";
 		}
-	    var directions = {
-	        ASC: 1,
-	        DES: -1
-	    }
-	    return array.sort(function(a, b){
-	    	var akey = a;
-	    	var bkey = b;
-	    	if(key){
-	    		akey = a[key];
-	    		bkey = b[key];
-	    	}
-	        if(akey < bkey){
-	            return (-1 * directions[dir]);
-	        } else if(akey > bkey){
-	            return (1 * directions[dir]);
-	        } else {
-	            return 0;
-	        }
-	    })
+		var directions = {
+			ASC: 1,
+			DES: -1
+		}
+		return array.sort(function(a, b){
+			var akey = a;
+			var bkey = b;
+			if(key){
+				akey = a[key];
+				bkey = b[key];
+			}
+			if(akey < bkey){
+				return (-1 * directions[dir]);
+			} else if(akey > bkey){
+				return (1 * directions[dir]);
+			} else {
+				return 0;
+			}
+		})
 	},
 	betterConsole: function(title, variable) {
 		if(arguments.length < 1){
-			return "arguments: title, variable;"
+			return "Arguments: [title, variable]";
 		}
 		console.log("");
 		console.log("******************* [ " + title + " ] ******************");
 		console.log(variable);
 	}
 };
+
 export default fnLib;
