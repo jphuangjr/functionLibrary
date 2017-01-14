@@ -1,6 +1,6 @@
 var fnLib = {
 	allMethods : function() {
-		return ["removeDupsInArray", "toCamelCase", "filter", "sort"];
+		return ["removeDupsInArray", "toCamelCase", "filter", "sort", "betterConsole"];
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
 		if(arguments.length < 1){
