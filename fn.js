@@ -85,3 +85,4 @@ var fnLib = {
 		console.log(variable);
 	}
 };
+export default fnLib;
