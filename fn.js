@@ -40,16 +40,16 @@ var fnLib = {
 	},
 	filter : function(target , array){
 		if(arguments.length < 1){
-			return "Arguments: [target, array"];
+			return "Arguments: [target, array]";
 		}
 		var val = '^(?=.*\\b' + target.trim().split(/\s+/).join('\\b)(?=.*\\b') + ').*$';
 		var reg = RegExp(val, 'i');
-		var results = []
+		var results = [];
 		array.forEach(function(value){
 			if(reg.test(value)){
 				results.push(value)
 			}
-		})
+		});
 		return results;
 	},
 	sort: function(array, key, dir){
@@ -81,5 +81,19 @@ var fnLib = {
 			return "Arguments: [title, variable]";
 		}
 		console.log(" \n******************* [ " + title + " ] ****************** \n", variable);
+	},
+	queue: function() {
+		return {
+			arr: [],
+			enqueue: function(stuff){
+				this.arr.push(stuff);
+			},
+			dequeue: function(){
+				return this.arr.shift();
+			},
+			getValues: function(){
+				return this.arr;
+			}
+		}
 	}
 };
