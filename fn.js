@@ -80,10 +80,6 @@ var fnLib = {
 		if(arguments.length < 1){
 			return "Arguments: [title, variable]";
 		}
-		console.log("");
-		console.log("******************* [ " + title + " ] ******************");
-		console.log(variable);
+		console.log(" \n******************* [ " + title + " ] ****************** \n", variable);
 	}
 };
-
-export default fnLib;
