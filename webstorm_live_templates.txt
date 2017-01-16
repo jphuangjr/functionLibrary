@@ -1,0 +1,21 @@
+---- CONSOLE LOG -----
+
+/* TODO: Delete note*/
+console.log("  \n ******************* [ $TITLE$ ] ****************** \n", $VAR$);
+
+
+---- Obj to array -----
+
+var objToArray = function(obj, returnKey, returnTuple) {
+    var result = [];
+    for(var key in obj){
+        if(!returnTuple && !returnKey){
+            result.push(obj[key]);
+        } else if(!returnTuple && returnKey){
+            result.push(key);
+        } else {
+            result.push([key,obj[key]])
+        }
+    }
+    return result;
+}

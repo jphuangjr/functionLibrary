@@ -95,5 +95,16 @@ var fnLib = {
 				return this.arr;
 			}
 		}
+	},
+	binaryCheck : function(data, valueVar, leftVar, rightVar, target){
+		if(data[valueVar] == target){
+			return true;
+		} else if (data[valueVar] > target && !!data[leftVar]) {
+			return binaryCheck(data[leftVar], valueVar, leftVar, rightVar, target);
+		} else if(data[valueVar] < target && !!data[rightVar]){
+			return binaryCheck(data[rightVar], valueVar, leftVar, rightVar, target);
+		} else {
+			return false;
+		}
 	}
 };
