@@ -1,6 +1,15 @@
 var fnLib = {
 	allMethods : function() {
-		return ["removeDupsInArray", "toCamelCase", "filter", "sort", "console", "queue", "binaryCheck"];
+		return [
+			"removeDupsInArray  [array,isValueObj, key]",
+			"toCamelCase  [string]",
+			"filter  [target, array]",
+			"sort  [array, key, direction (ASC or DES)]",
+			"console  [title, variable]",
+			"queue [initialData] {methods => enqueue, dequeue, getValues}",
+			"binaryCheck [data, valueVar, leftVar, rightVar, target]",
+			"memoize  [function]"
+		];
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
 		if(arguments.length < 1){
