@@ -1,6 +1,6 @@
 var fnLib = {
 	allMethods : function() {
-		return ["removeDupsInArray", "toCamelCase", "filter", "sort", "betterConsole"];
+		return ["removeDupsInArray", "toCamelCase", "filter", "sort", "betterConsole", "queue", "binaryCheck"];
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
 		if(arguments.length < 1){
@@ -106,5 +106,15 @@ var fnLib = {
 		} else {
 			return false;
 		}
+	},
+	memoize : function(func){
+		let cache = {};
+		return function(key) {
+			if (key in cache) {
+				return cache[key];
+			} else {
+				return cache[key] = func.apply(this, arguments);
+			}
+		};
 	}
 };
