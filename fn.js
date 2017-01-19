@@ -1,6 +1,6 @@
 var fnLib = {
 	allMethods : function() {
-		return ["removeDupsInArray", "toCamelCase", "filter", "sort", "betterConsole", "queue", "binaryCheck"];
+		return ["removeDupsInArray", "toCamelCase", "filter", "sort", "console", "queue", "binaryCheck"];
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
 		if(arguments.length < 1){
@@ -76,7 +76,7 @@ var fnLib = {
 			}
 		})
 	},
-	betterConsole: function(title, variable) {
+	console: function(title, variable) {
 		if(arguments.length < 1){
 			return "Arguments: [title, variable]";
 		}
@@ -118,3 +118,5 @@ var fnLib = {
 		};
 	}
 };
+
+module.exports = fnLib;
