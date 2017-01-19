@@ -82,9 +82,9 @@ var fnLib = {
 		}
 		console.log(" \n******************* [ " + title + " ] ****************** \n", variable);
 	},
-	queue: function() {
+	queue: function(initialData) {
 		return {
-			arr: [],
+			arr: initialData || [],
 			enqueue: function(stuff){
 				this.arr.push(stuff);
 			},
