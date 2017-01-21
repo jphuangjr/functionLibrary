@@ -8,7 +8,8 @@ var fnLib = {
 			"console  [title, variable]",
 			"queue [initialData] {methods => enqueue, dequeue, getValues}",
 			"binaryCheck [data, valueVar, leftVar, rightVar, target]",
-			"memoize  [function]"
+			"memoize  [function]",
+			"objToArray"
 		];
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
@@ -125,6 +126,21 @@ var fnLib = {
 				return cache[key] = func.apply(this, arguments);
 			}
 		};
+	},
+	objToArray : function(obj, returnKey, returnTuple, returnArrayOfObj) {
+	    var result = [];
+	    for(var key in obj){
+	        if(!returnTuple && !returnKey){
+	            result.push(obj[key]);   
+	        } else if(!returnTuple && returnKey){
+	            result.push(key);
+	        } else if(!returnTuple && returnArrayOfObj){
+	            result.push([key,obj[key]])
+	        } else {
+	            result.push({key: key, value: obj[key]});
+	        }
+	    } 
+	    return result;
 	}
 };
 
