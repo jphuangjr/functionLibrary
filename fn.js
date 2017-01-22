@@ -1,6 +1,16 @@
 var fnLib = {
 	allMethods : function() {
-		return ["removeDupsInArray", "toCamelCase", "filter", "sort", "betterConsole"];
+		return [
+			"removeDupsInArray  [array,isValueObj, key]",
+			"toCamelCase  [string]",
+			"filter  [target, array]",
+			"sort  [array, key, direction (ASC or DES)]",
+			"console  [title, variable]",
+			"queue [initialData] {methods => enqueue, dequeue, getValues}",
+			"binaryCheck [data, valueVar, leftVar, rightVar, target]",
+			"memoize  [function]",
+			"objToArray"
+		];
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
 		if(arguments.length < 1){
@@ -76,15 +86,15 @@ var fnLib = {
 			}
 		})
 	},
-	betterConsole: function(title, variable) {
+	console: function(title, variable) {
 		if(arguments.length < 1){
 			return "Arguments: [title, variable]";
 		}
 		console.log(" \n******************* [ " + title + " ] ****************** \n", variable);
 	},
-	queue: function() {
+	queue: function(initialData) {
 		return {
-			arr: [],
+			arr: initialData || [],
 			enqueue: function(stuff){
 				this.arr.push(stuff);
 			},
@@ -103,16 +113,52 @@ var fnLib = {
 			return false
 		}
 	},
-	each : function(arr, iterator){
-		if(Array.isArray(arr)) {
-			arr.forEach(function(value, i, collection){
+	each : function(arr, iterator) {
+		if (Array.isArray(arr)) {
+			arr.forEach(function (value, i, collection) {
 				iterator(value, i, collection)
 			})
 		} else {
-			for(var key in arr){
+			for (var key in arr) {
 				iterator(arr[key], key, arr);
 			}
 		}
+	},
+	binaryCheck : function(data, valueVar, leftVar, rightVar, target){
+		if(data[valueVar] == target){
+			return true;
+		} else if (data[valueVar] > target && !!data[leftVar]) {
+			return binaryCheck(data[leftVar], valueVar, leftVar, rightVar, target);
+		} else if(data[valueVar] < target && !!data[rightVar]){
+			return binaryCheck(data[rightVar], valueVar, leftVar, rightVar, target);
+		} else {
+			return false;
+		}
+	},
+	memoize : function(func){
+		let cache = {};
+		return function(key) {
+			if (key in cache) {
+				return cache[key];
+			} else {
+				return cache[key] = func.apply(this, arguments);
+			}
+		};
+	},
+	objToArray : function(obj, returnKey, returnTuple, returnArrayOfObj) {
+	    var result = [];
+	    for(var key in obj){
+	        if(!returnTuple && !returnKey){
+	            result.push(obj[key]);   
+	        } else if(!returnTuple && returnKey){
+	            result.push(key);
+	        } else if(!returnTuple && returnArrayOfObj){
+	            result.push([key,obj[key]])
+	        } else {
+	            result.push({key: key, value: obj[key]});
+	        }
+	    } 
+	    return result;
 	}
 };
 
