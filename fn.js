@@ -95,5 +95,25 @@ var fnLib = {
 				return this.arr;
 			}
 		}
+	},
+	coinFlip: function() {
+		if (Math.random() * 100 <= 50 ) {
+			return true;
+		} else {
+			return false
+		}
+	},
+	each : function(arr, iterator){
+		if(Array.isArray(arr)) {
+			arr.forEach(function(value, i, collection){
+				iterator(value, i, collection)
+			})
+		} else {
+			for(var key in arr){
+				iterator(arr[key], key, arr);
+			}
+		}
 	}
 };
+
+module.exports = fnLib;
