@@ -136,7 +136,7 @@ var fnLib = {
 		}
 	},
 	memoize : function(func){
-		let cache = {};
+		var cache = {};
 		return function(key) {
 			if (key in cache) {
 				return cache[key];
