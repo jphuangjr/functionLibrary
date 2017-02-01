@@ -48,19 +48,11 @@ var fnLib = {
 		});
 		return arr.join("");
 	},
-	filter : function(target , array){
-		if(arguments.length < 1){
-			return "Arguments: [target, array]";
-		}
-		var val = '^(?=.*\\b' + target.trim().split(/\s+/).join('\\b)(?=.*\\b') + ').*$';
-		var reg = RegExp(val, 'i');
-		var results = [];
-		array.forEach(function(value){
-			if(reg.test(value)){
-				results.push(value)
-			}
-		});
-		return results;
+	filter : function(arr, filter){
+		var re = new RegExp(filter,  "i");
+		return arr.filter(function(value) {
+			return re.test(value);
+		})
 	},
 	sort: function(array, key, dir){
 		if(arguments.length < 1){
