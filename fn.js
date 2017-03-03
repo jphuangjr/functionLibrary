@@ -9,7 +9,8 @@ var fnLib = {
 			"queue [initialData] {methods => enqueue, dequeue, getValues}",
 			"binaryCheck [data, valueVar, leftVar, rightVar, target]",
 			"memoize  [function]",
-			"objToArray"
+			"objToArray",
+			"ellipsis"
 		];
 	},
 	removeDupsInArray : function(array, isValueObj, key) {
@@ -151,7 +152,11 @@ var fnLib = {
 	        }
 	    } 
 	    return result;
+	},
+	ellipsis : function(word, limit){
+		return word.slice(0, limit) + "...";
 	}
+
 };
 
 module.exports = fnLib;
