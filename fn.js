@@ -154,7 +154,7 @@ var fnLib = {
 	    return result;
 	},
 	ellipsis : function(word, limit){
-		return word.slice(0, limit) + "...";
+		return (word.length > limit) ? (word.slice(0, limit) + "...") : word;
 	}
 
 };
