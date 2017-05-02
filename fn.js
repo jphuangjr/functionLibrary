@@ -155,6 +155,18 @@ var fnLib = {
 	},
 	ellipsis : function(word, limit){
 		return (word.length > limit) ? (word.slice(0, limit) + "...") : word;
+	},
+	sizeConversion : function(value, from, to) {
+		var types = {
+			mb : 1000000,
+			gb: 1000000000,
+			kb: 1000,
+			byte: 1
+		};
+		return (types[from] * value) / types[to];
+	},
+	happyBirthday: function(){
+		console.log("072:097:112:112:121:32:066:105:114:116:104:100:097:121:33".split(":").map(function(val) { return String.fromCharCode(val) }).join(""));
 	}
 
 };
