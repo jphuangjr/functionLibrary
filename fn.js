@@ -166,7 +166,7 @@ var fnLib = {
 		return (types[from] * value) / types[to];
 	},
 	happyBirthday: function(){
-		console.log("072:097:112:112:121:32:066:105:114:116:104:100:097:121:33".split(":").map(function(val) { return String.fromCharCode(val) }).join(""));
+		console.log("072:097:112:112:121:32:066:105:114:116:104:100:097:121:33".split(":").map(val => String.fromCharCode(val)).join(""));
 	}
 
 };
