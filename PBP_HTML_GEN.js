@@ -192,7 +192,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/HolyCraftBrewCo/",
 		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/holycraft.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/08/holy_craft-e1501743612836.jpg"
 	},{
 		name: "Asahi",
 		link: "",
