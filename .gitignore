@@ -38,6 +38,7 @@ jspm_packages
 
 # ignore scratch files
 ignored/scratch.js
+scratch.js
 scratch.sql
 ignored/scratch.txt
 
