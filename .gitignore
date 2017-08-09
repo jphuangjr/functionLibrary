@@ -37,6 +37,9 @@ jspm_packages
 .node_repl_history
 
 # ignore scratch files
-scratch.js
+ignored/scratch.js
 scratch.sql
-scratch.txt
+ignored/scratch.txt
+
+# ignore directory
+ignored/
