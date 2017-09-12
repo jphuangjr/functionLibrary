@@ -27,19 +27,19 @@ var donations = [
 		link: "http://www.newdelhirestaurant.com",
 		facebook: "https://www.facebook.com/NewDelhiRestaurant",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/NewDelhi-e1502784026810.png",
-		received: false
+		received: true
 	},{
 		donor: "Farallon",
 		link: "http://www.farallonrestaurant.com",
 		facebook:"https://www.facebook.com/FarallonSF/",
-		image: "",
-		received: false
+		image: "https://platebyplate.org/wp-content/uploads/2014/09/Farallon.png",
+		received: true
 	},{
 		donor: "Peju Winery",
 		link: "http://www.peju.com",
 		facebook:"https://www.facebook.com/PEJUWinery/",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/peju-e1502784630692.png",
-		received: false
+		received: true
 	},{
 		donor: "SF Symphony",
 		link: "http://www.sfsymphony.org",
@@ -51,25 +51,25 @@ var donations = [
 		link: "https://sfopera.com",
 		facebook:"https://www.facebook.com/SFOpera/",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/sfOpera.png",
-		received: false
+		received: true
 	},{
 		donor: "Hillside Supper Club",
 		link: "http://www.hillsidesupperclub.com",
 		facebook:"https://www.facebook.com/HillsideSupperClub",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/hillside.jpeg",
-		received: false
+		received: true
 	},{
 		donor: "Planet Granite San Francisco",
 		link: "https://planetgranite.com/sf/",
 		facebook:"https://www.facebook.com/planetgranitesanfrancisco/",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/planetGranite.png",
-		received: false
+		received: true
 	},{
 		donor: "Drakes",
 		link: "https://drinkdrakes.com",
 		facebook:"https://www.facebook.com/DrakesBeer/",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/drakes.png",
-		received: false
+		received: true
 	},{
 		donor: "SF Moma",
 		link: "https://www.sfmoma.org",
@@ -177,7 +177,7 @@ var donations = [
 		link: "https://www.paliodasti.com",
 		facebook:"https://www.facebook.com/paliosf/",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/palio.png",
-		received: false
+		received: true
 	},{
 		donor: "Martins West",
 		link: "https://www.martinswestgp.com",
@@ -189,7 +189,7 @@ var donations = [
 		link: "http://www.phatmattsbbq.com",
 		facebook:"https://www.facebook.com/phatmattsbbq/",
 		image: "https://platebyplate.org/wp-content/uploads/2017/06/phat_matts_bbq-e1498800238306.jpg",
-		received: false
+		received: true
 	},{
 		donor: "Studio Mix",
 		link: "http://www.studiomix.com",
@@ -207,19 +207,211 @@ var donations = [
 		link: "https://www.rockwallwines.com",
 		facebook:"https://www.facebook.com/RockWallWines",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/rockWall-e1502786956365.jpg",
+		received: true
+	},{
+		donor: "Dandelion Chocolate",
+		link: "http://www.dandelionchocolate.com",
+		facebook:"https://www.facebook.com/DandelionChocolate/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/dandelion.jpg",
+		received: true
+	},{
+		donor: "Lazy Dog",
+		link: "https://www.lazydogrestaurants.com",
+		facebook:"https://www.facebook.com/LazyDogRestaurants",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/lazy_dog.png",
+		received: true
+	},{
+		donor: "McKahn Family Cellars",
+		link: "http://mckahnfamilycellars.com",
+		facebook:"https://www.facebook.com/mckahnfamilycellars/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/mckahn-1.jpg",
+		received: true
+	},{
+		donor: "Moone Tsai Wines",
+		link: "http://www.moonetsai.com",
+		facebook:"https://www.facebook.com/Moonetsai/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/moone.jpg",
+		received: true
+	},{
+		donor: "SF Delta",
+		link: "http://www.sfdeltas.com",
+		facebook:"https://www.facebook.com/sfdeltas/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/sfdeltas.jpg",
+		received: true
+	},{
+		donor: "SF Giants",
+		link: "https://www.mlb.com/giants",
+		facebook:"https://www.facebook.com/Giants/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/sfgiants.jpg",
+		received: true
+	},{
+		donor: "Smuin Ballet",
+		link: "http://www.smuinballet.org",
+		facebook:"https://www.facebook.com/smuinballet/?ref=br_rs",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/smuin.jpg",
+		received: true
+	},{
+		donor: "Steins Beer Garden",
+		link: "http://steinsbeergarden.com",
+		facebook:"https://www.facebook.com/SteinsMountainView/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/steins.jpg",
+		received: true
+	},{
+		donor: "Asian Box",
+		link: "http://www.asianbox.com",
+		facebook:"https://www.facebook.com/AsianBoxEats/",
+		image: "https://platebyplate.org/wp-content/uploads/2015/07/asian_box_200.png",
+		received: true
+	},{
+		donor: "Black Medicine",
+		link: "http://www.blackmedicine.com",
+		facebook:"https://www.facebook.com/BlackMedicineCoffee/?ref=br_rs",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/black_medicine.jpg",
+		received: true
+	},{
+		donor: "Breguet",
+		link: "https://www.breguet.com/en",
+		facebook:"https://www.facebook.com/MontresBreguet/?ref=br_rs",
+		image: "",
+		received: true
+	},{
+		donor: "Hillside Supper Club",
+		link: "http://www.hillsidesupperclub.com",
+		facebook:"https://www.facebook.com/HillsideSupperClub",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/brequet.png",
+		received: true
+	},{
+		donor: "Kikori Whiskey",
+		link: "http://www.kikoriwhiskey.com",
+		facebook:"https://www.facebook.com/kikoriwhiskey/",
+		image: "",
 		received: false
+	},{
+		donor: "Kokkari Estiatorio",
+		link: "https://kokkari.com",
+		facebook:"https://www.facebook.com/kokkaricookbook/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/08/kikori-e1503916938778.png",
+		received: true
+	},{
+		donor: "Scoma's Restaurant & Bar",
+		link: "http://scomas.com",
+		facebook:"https://www.facebook.com/ScomasSF/?ref=br_rs",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/scomas.jpg",
+		received: true
+	},{
+		donor: "Sf Dental Care",
+		link: "http://www.sanfranciscodentalcare.com",
+		facebook:"https://www.facebook.com/sanfranciscodentalcare/?ref=br_rs",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/sfDentalCare.jpg",
+		received: true
+	},{
+		donor: "SMAart Gallery & Studio",
+		link: "http://www.smaartgallery.com",
+		facebook:"https://www.facebook.com/SMAartGallery/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/smaart.jpg",
+		received: true
+	},{
+		donor: "Yao Family Wines",
+		link: "http://www.yaofamilywines.com",
+		facebook:"https://www.facebook.com/YaoFamilyWines/?ref=br_rs",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/yao.jpg",
+		received: true
+	},{
+		donor: "Zola",
+		link: "http://www.zolapaloalto.com",
+		facebook:"https://www.facebook.com/zolapaloalto",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/zola.jpg",
+		received: true
+	},{
+		donor: "Hard Frescos Brewing Co.",
+		link: "www.hardfrescos.com",
+		facebook:"https://www.facebook.com/hardfrescos/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/07/hard_frescos-e1500368453835.png",
+		received: true
+	},{
+		donor: "Le Colonial",
+		link: "http://www.lecolonialsf.com",
+		facebook:"https://www.facebook.com/LecolonailSF/?ref=br_rs",
+		image: "https://platebyplate.org/wp-content/uploads/2015/07/le_colonial_200.png",
+		received: true
+	},{
+		donor: "Raff Distillerie",
+		link: "http://www.raffdistillerie.com",
+		facebook:"https://www.facebook.com/raffdistillerie/",
+		image: "https://platebyplate.org/wp-content/uploads/2017/07/raff-e1500368626428.png",
+		received: true
+	},{
+		donor: "Seven Stills",
+		link: "https://sevenstillsofsf.com",
+		facebook:"https://www.facebook.com/sevenstillsofsf/?ref=br_rs",
+		image: "https://platebyplate.org/wp-content/uploads/2017/07/Screenshot-2017-07-18-03.07.40-e1500372544780.png",
+		received: true
+	}
+];
+
+var memorabilia = [
+	{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Chan-Effect-Logo.png"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Breaking-Bad-11x14.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/49rs-Legends.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Star-Trek-16-X-20.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/The-Walking-Dead-.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Avengers-Age-Of-Ultron-Poster.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Hunger-Games-Mockingjay-Part-1.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Game-of-Thrones.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Notebook.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Michael-Phelps-A.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Barack-Obama-11-X-14.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Quarterback-Legends.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Muhammad-Ali-vs-Joe-Frazier.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Muhammad-Ali-vs-George-Foreman.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Michael-Jackson-11-X-14.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Ariana-Grande.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Taylor-Swift-Sheet.jpeg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/JT-and-JayZ-Sheet.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Katy-Perry-Sheet.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Adele-Hello-Sheet-Music.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Rolling-Stones-Guitar.jpg"
 	}
 ];
 
 var createBlob = function(data) {
-	return '\n<!-- Donor: '+ data.donor +' -->\n<div class="item-container">\n<div class="logo-container">\n<a class="logo-link" href="'+ data.link +'"><img class="logo-wide" src="'+ data.image +'" alt="All Covered " /></a>\n</div>\n</div>\n';
+	return '\n<!-- Donor: '+ data.donor +' -->\n<div class="item-container">\n<div class="logo-container">\n<a class="logo-link" href="'+ data.link +'"><img class="logo-wide" src="'+ data.image +'" alt="'+ data.donor +'" /></a>\n</div>\n</div>\n';
 }
 
-donations.map(function(v){
-	if(v.received) {
-		console.log(createBlob(v));
-	}
-});
+var createMem = function(data) {
+	return '\n<!-- Memorabilia: '+ data.image.slice(52, 100) +' -->\n<div class="item-container">\n<div class="logo-container">\n<img class="logo-wide" src="'+ data.image +'" alt="'+ data.image.slice(52,100) +'" />\n</div>\n</div>\n';
+}
+
+//donations.map(function(v){
+//	if(v.received) {
+//		console.log(createBlob(v));
+//	}
+//});
+
+memorabilia.map(function(v){
+	console.log(createMem(v));
+})
 
 var confirmed = donations.filter(function(val){
 	return val.received == true;

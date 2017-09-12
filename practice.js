@@ -84,5 +84,29 @@ var linkedLists = {
 //sortMethods.selectionSort(numbers);
 //sortMethods.bubbleSort(numbers);
 
-var LL1 = new linkedLists.singleLL();
-console.log(LL1.isEmpty())
+
+Array.prototype.fourEach = function(callback) {
+	for(var i=0; i<this.length; i++){
+		callback(this[i]);
+	}
+};
+
+Object.prototype.fourEach = function(callback) {
+	console.log(this)
+	for(var key in this){
+		console.log(this[key])
+		callback(this[key]);
+	}
+};
+
+var test = [1,2,3];
+
+//test.fourEach(function(val){
+//	console.log(val*2);
+//});
+
+var lol = {key: "josh", key2: "jeff"};
+
+lol.fourEach(function(val){
+	//console.log(val + "lolzer")
+})
