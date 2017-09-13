@@ -21,7 +21,7 @@ var emptyTemplate = {
 var rest = [
 	{
 		name: "Le Colonial SF",
-		link: 'www.lecolonialsf.com',
+		link: 'http://www.lecolonialsf.com',
 		address: '20 Cosmo Pl',
 		city: 'San Francisco, California, CA 94109',
 		phone: '(415) 931-3600',
@@ -31,7 +31,7 @@ var rest = [
 		img: 'http://platebyplate.org/wp-content/uploads/2017/06/leColonial-e1498800114347.jpeg'
 	},{
 		name: "Pa‘ina Lounge & Restaurant",
-		link: 'www.painasf.com',
+		link: 'http://www.painasf.com',
 		address: '1865 Post St',
 		city: 'San Francisco, California, CA 94115',
 		phone: '(415) 829-2642',
@@ -39,16 +39,6 @@ var rest = [
 		facebook: "https://www.facebook.com/PainaSF/",
 		yelp: 'https://www.yelp.com/biz/paina-lounge-and-restaurant-san-francisco?osq=paina+sf',
 		img: "http://platebyplate.org/wp-content/uploads/2016/06/Paina-Logo.png"
-	},{
-		name: "Noelani‘s Bar and Grill",
-		link: "www.noelanis.com",
-		address: "1037 Laurel St",
-		city: "San Carlos, CA 94070",
-		phone: "(650) 394-8169",
-		maps: "https://www.google.com/maps/place/Noelani's+Bar+and+Grill/@37.5008325,-122.2562082,17z/data=!3m1!4b1!4m5!3m4!1s0x808fa219d629d955:0x18d9c30477bf4649!8m2!3d37.5008325!4d-122.2540195",
-		facebook: "https://www.facebook.com/noelanisbarandgrill/",
-		yelp: "https://www.yelp.com/biz/noelanis-san-carlos-6?osq=Noelani%27s+Bar+and+Grill",
-		img: "http://platebyplate.org/wp-content/uploads/2015/07/noelanis_200.jpg"
 	},{
 		name: "Pinoy Heritage",
 		link: "www.pinoyheritage.com",
@@ -59,16 +49,6 @@ var rest = [
 		facebook: "https://www.facebook.com/pinoyheritagepopup/",
 		yelp: "",
 		img: "http://platebyplate.org/wp-content/uploads/2014/07/Pinoy-Heritage.jpg"
-	},{
-		name: "Phat Matt‘s BBQ",
-		link: "www.phatmattsbbq.com",
-		address: "3415 Telegraph Ave",
-		city: "Oakland, CA 94609",
-		phone: "(510) 879-7294",
-		maps: "https://www.google.com/maps/place/Phat+Matt's+BBQ/@37.8228081,-122.2685507,17z/data=!3m1!4b1!4m5!3m4!1s0x80857e00bd1fae45:0x8f922909d29f69e0!8m2!3d37.8228081!4d-122.266362",
-		facebook: "https://www.facebook.com/phatmattsbbq/",
-		yelp: "https://www.yelp.com/biz/phat-matts-bbq-oakland-2",
-		img: "http://platebyplate.org/wp-content/uploads/2017/06/phat_matts_bbq-e1498800238306.jpg"
 	},{
 		name: "Frozen Kuhsterd",
 		link: "http://www.frozenkuhsterd.com/",
@@ -130,16 +110,6 @@ var rest = [
 		yelp: "https://www.yelp.com/biz/slice-house-by-tony-gemignani-san-francisco-2?osq=tonys+slice+house",
 		img: "https://platebyplate.org/wp-content/uploads/2017/07/sliceHouse-e1500451718619.png"
 	},{
-		name: "Manila Bowl",
-		link: "http://manilabowl.com/",
-		address: "1355 Market St",
-		city: "San Francisco, CA 94103",
-		phone: "(415) 528-1969",
-		maps: "",
-		facebook: "https://www.facebook.com/ManilaBowlSF/",
-		yelp: "https://www.yelp.com/biz/manila-bowl-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/manila_bowl-e1500453054608.png"
-	},{
 		name: "Alexander's Steak House",
 		link: "http://www.alexanderssteakhouse.com/",
 		address: "448 Brannan St",
@@ -179,6 +149,46 @@ var rest = [
 		facebook: "https://www.facebook.com/waystonesf/",
 		yelp: "https://www.yelp.com/biz/waystone-san-francisco-2",
 		img: "https://platebyplate.org/wp-content/uploads/2017/07/waystone-e1500451668852.png"
+	},{
+		name: "Akiko's",
+		link: "http://akikosrestaurant.com/",
+		address: "431 Bush St",
+		city: "San Francisco, CA 94108",
+		phone: "(415) 397-3218",
+		maps: "",
+		facebook: "https://www.facebook.com/akikosrestaurant/",
+		yelp: "https://www.yelp.com/biz/akikos-restaurant-san-francisco",
+		img: "https://platebyplate.org/wp-content/uploads/2017/08/akikos-e1503916075719.jpg"
+	},{
+		name: "Milkbomb",
+		link: "http://www.MilkbombIceCream.com",
+		address: "1717 17TH STREET",
+		city: "San Francisco, California, CA 94103",
+		phone: "(415) 780-4429",
+		maps: "",
+		facebook: "https://www.facebook.com/milkbombicecream/",
+		yelp: "https://www.yelp.com/biz/milkbomb-ice-cream-san-francisco-3",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/milkbomb.jpg"
+	},{
+		name: "Sno Crave",
+		link: "https://www.facebook.com/snocravesf/",
+		address: "1181 Ocean Ave",
+		city: "San Francisco, CA 94112",
+		phone: "(415) 859-5642",
+		maps: "",
+		facebook: "https://www.facebook.com/snocraveuc/",
+		yelp: "https://www.yelp.com/biz/sno-crave-tea-house-sf-san-francisco-4",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/snocrave.jpg"
+	},{
+		name: "M.Y. China",
+		link: "http://tastemychina.com",
+		address: "845 Market St, Fl 4th",
+		city: "San Francisco, California, CA 94103",
+		phone: "(415) 580-3001",
+		maps: "",
+		facebook: "https://www.facebook.com/tastemychina/",
+		yelp: "https://www.yelp.com/biz/m-y-china-san-francisco-2",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/mychina.jpg"
 	}
 ];
 
@@ -195,7 +205,7 @@ var bev = [
 		img: "https://platebyplate.org/wp-content/uploads/2017/08/holy_craft-e1501743612836.jpg"
 	},{
 		name: "Asahi",
-		link: "",
+		link: "https://www.asahi.com/",
 		address: "3625 Del Amo Blvd, Suite 250",
 		city: "Torrance, CA 90503",
 		phone: "(310) 214-9051",
@@ -283,6 +293,106 @@ var bev = [
 		facebook: "https://www.facebook.com/raffdistillerie/",
 		yelp: "https://www.yelp.com/biz/raff-distillerie-san-francisco",
 		img: "https://platebyplate.org/wp-content/uploads/2017/07/raff-e1500368626428.png"
+	},{
+		name: "Kikori",
+		link: "http://www.kikoriwhiskey.com/",
+		address: "",
+		city: "",
+		phone: "",
+		maps: "",
+		facebook: "https://www.facebook.com/kikoriwhiskey",
+		yelp: "",
+		img: "https://platebyplate.org/wp-content/uploads/2017/08/kikori.png"
+	},{
+		name: "Wither Hills Winery",
+		link: "https://witherhills.co.nz/",
+		address: "211 New Renwick Rd",
+		city: "Burleigh, Fairhall 7272, New Zealand",
+		phone: "+64 3-520 8284",
+		maps: "",
+		facebook: "https://www.facebook.com/witherhillswinery/",
+		yelp: "",
+		img: "https://platebyplate.org/wp-content/uploads/2017/08/wither_hills-e1503917861341.jpg"
+	},{
+		name: "Barebottle Brewing",
+		link: "http://www.barebottle.com/",
+		address: "1525 Cortland Ave",
+		city: "San Francisco, California, CA 94110",
+		phone: "(415) 926-8617",
+		maps: "",
+		facebook: "https://www.facebook.com/Barebottle/",
+		yelp: "https://www.yelp.com/biz/barebottle-brewing-company-san-francisco",
+		img: "https://platebyplate.org/wp-content/uploads/2017/08/barebottle.png"
+	},{
+		name: "Quixote Winery",
+		link: "http://www.quixotewinery.com/",
+		address: "6126 Silverado Trl",
+		city: "Napa, CA 94558",
+		phone: "(707) 944-2659",
+		maps: "",
+		facebook: "https://www.facebook.com/QuixoteWinery/",
+		yelp: "https://www.yelp.com/biz/quixote-winery-napa?osq=Quixote+Winery",
+		img: "https://platebyplate.org/wp-content/uploads/2017/08/quixote.png"
+	},{
+		name: "Hannah Nicole Winery",
+		link: "http://www.hnvwines.com/",
+		address: "6700 Balfour Rd",
+		city: "Brentwood, CA 94513",
+		phone: "(925) 240-9463",
+		maps: "",
+		facebook: "https://www.facebook.com/hnvwine/",
+		yelp: "https://www.yelp.com/biz/hannah-nicole-vineyards-and-winery-brentwood",
+		img: "https://platebyplate.org/wp-content/uploads/2017/08/Hannah_nicole.jpg"
+	},{
+		name: "Anchor Distilling",
+		link: "http://www.anchordistilling.com/",
+		address: "http://www.anchordistilling.com/",
+		city: "San Francisco, CA 94107",
+		phone: "(415) 863-8350",
+		maps: "",
+		facebook: "https://www.facebook.com/AnchorDistillingCompany/",
+		yelp: "https://www.yelp.com/biz/anchor-distilling-san-francisco",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/anchor_distilling.jpg"
+	},{
+		name: "Coca Cola",
+		link: "https://us.coca-cola.com/",
+		address: "",
+		city: "",
+		phone: "",
+		maps: "",
+		facebook: "https://www.facebook.com/CocaColaUnitedStates/",
+		yelp: "",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/cocacola.jpg"
+	},{
+		name: "Grgich Hills Estate",
+		link: "https://www.grgich.com/",
+		address: "1829 St Helena Hwy",
+		city: "Rutherford, CA 94573",
+		phone: "(707) 963-2784",
+		maps: "",
+		facebook: "https://www.facebook.com/GrgichHillsEstate/",
+		yelp: "https://www.yelp.com/biz/grgich-hills-estate-rutherford?osq=Grgich+Hills+Estate",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Grgich.jpg"
+	},{
+		name: "Kieu Hoang Winery",
+		link: "http://www.kieuhoangwinery.com/",
+		address: "1285 Dealy Ln",
+		city: "Napa, CA 94559",
+		phone: "(707) 253-1615",
+		maps: "",
+		facebook: "https://www.facebook.com/kieuhoangwinery/",
+		yelp: "https://www.yelp.com/biz/kieu-hoang-winery-napa",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/kieu.jpg"
+	},{
+		name: "Riboli Family Wine Estates",
+		link: "http://riboliwines.com/",
+		address: "2017 Wisteria Lane",
+		city: "Paso Robles, CA 93446",
+		phone: "805-226-2600",
+		maps: "",
+		facebook: "https://www.facebook.com/Riboli-Family-Wine-Estates-1528101670816124/",
+		yelp: "",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/riboli.png"
 	}
 ];
 
@@ -303,3 +413,15 @@ var createSection = function(r, b) {
 };
 
 createSection(rest, bev);
+
+//,{
+//	name: "",
+//			link: "",
+//			address: "",
+//			city: "",
+//			phone: "",
+//			maps: "",
+//			facebook: "",
+//			yelp: "",
+//			img: ""
+//}
