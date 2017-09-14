@@ -28,7 +28,7 @@ var rest = [
 		maps: 'https://www.google.com/maps/place/Le+Colonial/@37.7882142,-122.4146043,17z/data=!3m1!4b1!4m5!3m4!1s0x8085808e03bdd16b:0x972565bc5854989!8m2!3d37.7882142!4d-122.4124156',
 		facebook: 'https://www.facebook.com/LecolonailSF/',
 		yelp: 'https://www.yelp.com/biz/le-colonial-san-francisco',
-		img: 'http://platebyplate.org/wp-content/uploads/2017/06/leColonial-e1498800114347.jpeg'
+		img: 'https://platebyplate.org/wp-content/uploads/2017/09/Logo-Le-Colonial.jpg'
 	},{
 		name: "Pa‘ina Lounge & Restaurant",
 		link: 'http://www.painasf.com',
@@ -38,7 +38,7 @@ var rest = [
 		maps: "https://www.google.com/maps/place/Pa'ina+Restaurant+%26+Lounge/@37.785132,-122.4345597,17z/data=!3m1!4b1!4m5!3m4!1s0x808580b8f8ffc6bf:0xda340023dd9c93ee!8m2!3d37.785132!4d-122.432371",
 		facebook: "https://www.facebook.com/PainaSF/",
 		yelp: 'https://www.yelp.com/biz/paina-lounge-and-restaurant-san-francisco?osq=paina+sf',
-		img: "http://platebyplate.org/wp-content/uploads/2016/06/Paina-Logo.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Paina.png"
 	},{
 		name: "Pinoy Heritage",
 		link: "www.pinoyheritage.com",
@@ -48,7 +48,7 @@ var rest = [
 		maps: "",
 		facebook: "https://www.facebook.com/pinoyheritagepopup/",
 		yelp: "",
-		img: "http://platebyplate.org/wp-content/uploads/2014/07/Pinoy-Heritage.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Pinoy-Heritage.png"
 	},{
 		name: "Frozen Kuhsterd",
 		link: "http://www.frozenkuhsterd.com/",
@@ -68,7 +68,7 @@ var rest = [
 		maps: "https://www.google.com/maps/place/dakshin:+A+South+Indian+Canteen/@37.7963794,-122.4244749,17z/data=!3m1!4b1!4m5!3m4!1s0x808580e9bc2b4ca7:0x78569c3909fa9474!8m2!3d37.7963794!4d-122.4222862",
 		facebook: "https://www.facebook.com/dakshincanteen/",
 		yelp: "https://www.yelp.com/biz/dakshin-san-francisco-6",
-		img: "http://platebyplate.org/wp-content/uploads/2017/06/dakshin.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2014/07/dakshin.jpg"
 	},{
 		name: "Twenty Five Lusk",
 		link: "http://www.twentyfivelusk.com",
@@ -78,7 +78,7 @@ var rest = [
 		maps: "https://www.google.com/maps/place/Twenty+Five+Lusk/@37.7784685,-122.3964995,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7fd640263903:0xf813d8d02ecda3b3!8m2!3d37.7784685!4d-122.3943108",
 		facebook: "https://www.facebook.com/TwentyFiveLusk/",
 		yelp: "https://www.yelp.com/biz/twenty-five-lusk-san-francisco",
-		img: "http://platebyplate.org/wp-content/uploads/2015/07/25_lusk_200.png"
+		img: "https://platebyplate.org/wp-content/uploads/2015/07/25_lusk_200.png"
 	},{
 	//	name: "Mozzeria",
 	//	link: "http://www.mozzeria.com/",
@@ -98,7 +98,7 @@ var rest = [
 		maps: "",
 		facebook: "https://www.facebook.com/AsianBoxEats/",
 		yelp: "https://www.yelp.com/biz/asian-box-burlingame-2?osq=Asian+box",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/asian_box.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Asian-Box.jpg"
 	},{
 		name: "Tony's Slice House",
 		link: "http://slicehouse.com/",
@@ -108,7 +108,7 @@ var rest = [
 		maps: "",
 		facebook: "https://www.facebook.com/tonyscoalfired/",
 		yelp: "https://www.yelp.com/biz/slice-house-by-tony-gemignani-san-francisco-2?osq=tonys+slice+house",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/sliceHouse-e1500451718619.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Slice-House.jpg"
 	},{
 		name: "Alexander's Steak House",
 		link: "http://www.alexanderssteakhouse.com/",
@@ -118,7 +118,7 @@ var rest = [
 		maps: "",
 		facebook: "https://www.facebook.com/alexanderssteakhousesf/",
 		yelp: "https://www.yelp.com/biz/alexanders-steakhouse-san-francsico",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/Alexanders-logo.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Alexanders-Steak-House.jpg"
 	},{
 		name: "Salt House",
 		link: "https://salthousesf.com/",
@@ -128,7 +128,7 @@ var rest = [
 		maps: "",
 		facebook: "https://www.facebook.com/salthousesf/",
 		yelp: "https://www.yelp.com/biz/salt-house-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/salt_house.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Salt-House.jpg"
 	},{
 		name: "Farallon",
 		link: "http://www.farallonrestaurant.com",
@@ -138,7 +138,7 @@ var rest = [
 		maps: "",
 		facebook: "https://www.facebook.com/FarallonSF/",
 		yelp: "https://www.yelp.com/biz/farallon-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/Farallon-logo.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Farallon.jpg"
 	},{
 	//	name: "Waystone",
 	//	link: "http://www.waystonesf.com",
@@ -178,7 +178,7 @@ var rest = [
 		maps: "",
 		facebook: "https://www.facebook.com/snocraveuc/",
 		yelp: "https://www.yelp.com/biz/sno-crave-tea-house-sf-san-francisco-4",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/snocrave.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Sno_crave_p_NG.png"
 	},{
 		name: "M.Y. China",
 		link: "http://tastemychina.com",
@@ -202,7 +202,7 @@ var bev = [
 		maps: "https://www.google.com/maps/place/Scoma's+Restaurant/@37.8089443,-122.4184597,15z/data=!4m5!3m4!1s0x0:0x976bca61020dcc34!8m2!3d37.8089443!4d-122.4184597",
 		facebook: 'https://www.facebook.com/ScomasSF/?ref=br_rs',
 		yelp: 'https://www.yelp.com/biz/scomas-restaurant-san-francisco-3',
-		img: 'https://platebyplate.org/wp-content/uploads/2017/09/scomas.jpg'
+		img: 'https://platebyplate.org/wp-content/uploads/2017/09/Logo-Scomas.jpg'
 	},{
 		name: "Holy Craft",
 		link: "http://www.holycraftbrewery.com",
@@ -212,7 +212,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/HolyCraftBrewCo/",
 		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/08/holy_craft-e1501743612836.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Holy-Craft.jpg"
 	},{
 		name: "Asahi",
 		link: "https://www.asahi.com/",
@@ -232,7 +232,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/BCGingerAle/",
 		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/bruce_cost_ginger_ale.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Bruce-Cost-Ginger-Ale.jpg"
 	},{
 	//	name: "Tommy's Margaritas",
 	//	link: "http://www.tommysmargarita.com",
@@ -252,7 +252,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/BlackMedicineCoffee",
 		yelp: "https://www.yelp.com/biz/black-medicine-oakland",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/Screenshot-2017-07-18-03.03.10-e1500372290902.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Black-Medicine.png"
 	},{
 	//	name: "Tsingtao Beer",
 	//	link: "https://www.tsingtaobeer.com/",
@@ -282,7 +282,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/kovaldistillery/",
 		yelp: "https://www.yelp.com/biz/koval-distillery-chicago",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/koval.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Koval.png"
 	},{
 		name: "Seven Stills",
 		link: "http://www.sevenstillsofsf.com",
@@ -292,7 +292,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/sevenstillsofsf/",
 		yelp: "https://www.yelp.com/biz/seven-stills-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/Screenshot-2017-07-18-03.07.40.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Seven-Stills.jpg"
 	},{
 		name: "Raff Distillerie",
 		link: "http://www.raffdistillerie.com",
@@ -302,7 +302,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/raffdistillerie/",
 		yelp: "https://www.yelp.com/biz/raff-distillerie-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/raff-e1500368626428.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Raff-Distillerie.png"
 	},{
 		name: "Kikori",
 		link: "http://www.kikoriwhiskey.com/",
@@ -322,7 +322,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/witherhillswinery/",
 		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/08/wither_hills-e1503917861341.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Wither-Hills-Logo.jpg"
 	},{
 	//	name: "Barebottle Brewing",
 	//	link: "http://www.barebottle.com/",
@@ -342,7 +342,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/QuixoteWinery/",
 		yelp: "https://www.yelp.com/biz/quixote-winery-napa?osq=Quixote+Winery",
-		img: "https://platebyplate.org/wp-content/uploads/2017/08/quixote.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Quixote.jpg"
 	},{
 		name: "Hannah Nicole Winery",
 		link: "http://www.hnvwines.com/",
@@ -356,13 +356,13 @@ var bev = [
 	},{
 		name: "Anchor Distilling",
 		link: "http://www.anchordistilling.com/",
-		address: "http://www.anchordistilling.com/",
+		address: "1705 Mariposa St",
 		city: "San Francisco, CA 94107",
 		phone: "(415) 863-8350",
 		maps: "",
 		facebook: "https://www.facebook.com/AnchorDistillingCompany/",
 		yelp: "https://www.yelp.com/biz/anchor-distilling-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/anchor_distilling.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Anchor-Distilling.jpg"
 	},{
 		name: "Coca Cola",
 		link: "https://us.coca-cola.com/",
@@ -372,7 +372,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/CocaColaUnitedStates/",
 		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/cocacola.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Coca-Cola.jpg"
 	},{
 		name: "Grgich Hills Estate",
 		link: "https://www.grgich.com/",
@@ -382,7 +382,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/GrgichHillsEstate/",
 		yelp: "https://www.yelp.com/biz/grgich-hills-estate-rutherford?osq=Grgich+Hills+Estate",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/Grgich.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-GHE-NV.jpg"
 	},{
 		name: "Kieu Hoang Winery",
 		link: "http://www.kieuhoangwinery.com/",
@@ -392,7 +392,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/kieuhoangwinery/",
 		yelp: "https://www.yelp.com/biz/kieu-hoang-winery-napa",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/kieu.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/KH-winery-logo_napavalley-1.png"
 	},{
 		name: "Riboli Family Wine Estates",
 		link: "http://riboliwines.com/",
@@ -402,7 +402,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/Riboli-Family-Wine-Estates-1528101670816124/",
 		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/riboli.png"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Riboli-Family.png"
 	},{
 		name: "Yao Family Wines",
 		link: "http://yaofamilywines.com",
@@ -412,7 +412,7 @@ var bev = [
 		maps: "",
 		facebook: "https://www.facebook.com/YaoFamilyWines/",
 		yelp: "https://www.yelp.com/biz/yao-family-wines-saint-helena?osq=yao+family+wines",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/yao.jpg"
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/Logo-Yao-Family-Wines.png"
 	}
 ];
 
