@@ -20,16 +20,6 @@ var emptyTemplate = {
 
 var rest = [
 	{
-		name: "Scoma's Restaurant & Bar",
-		link: 'http://scomas.com',
-		address: '1965 Al Scoma Way',
-		city: 'San Francisco, California, CA 94133',
-		phone: '(415) 771-4383',
-		maps: "https://www.google.com/maps/place/Scoma's+Restaurant/@37.8089443,-122.4184597,15z/data=!4m5!3m4!1s0x0:0x976bca61020dcc34!8m2!3d37.8089443!4d-122.4184597",
-		facebook: 'https://www.facebook.com/ScomasSF/?ref=br_rs',
-		yelp: 'https://www.yelp.com/biz/scomas-restaurant-san-francisco-3',
-		img: 'https://platebyplate.org/wp-content/uploads/2017/09/scomas.jpg'
-	},{
 		name: "Le Colonial SF",
 		link: 'http://www.lecolonialsf.com',
 		address: '20 Cosmo Pl',
@@ -204,6 +194,16 @@ var rest = [
 
 var bev = [
 	{
+		name: "Scoma's Restaurant & Bar",
+		link: 'http://scomas.com',
+		address: '1965 Al Scoma Way',
+		city: 'San Francisco, California, CA 94133',
+		phone: '(415) 771-4383',
+		maps: "https://www.google.com/maps/place/Scoma's+Restaurant/@37.8089443,-122.4184597,15z/data=!4m5!3m4!1s0x0:0x976bca61020dcc34!8m2!3d37.8089443!4d-122.4184597",
+		facebook: 'https://www.facebook.com/ScomasSF/?ref=br_rs',
+		yelp: 'https://www.yelp.com/biz/scomas-restaurant-san-francisco-3',
+		img: 'https://platebyplate.org/wp-content/uploads/2017/09/scomas.jpg'
+	},{
 		name: "Holy Craft",
 		link: "http://www.holycraftbrewery.com",
 		address: "",
@@ -403,6 +403,16 @@ var bev = [
 		facebook: "https://www.facebook.com/Riboli-Family-Wine-Estates-1528101670816124/",
 		yelp: "",
 		img: "https://platebyplate.org/wp-content/uploads/2017/09/riboli.png"
+	},{
+		name: "Yao Family Wines",
+		link: "http://yaofamilywines.com",
+		address: "929 Main St",
+		city: "Saint Helena, CA 94574",
+		phone: "(707) 244-9949",
+		maps: "",
+		facebook: "https://www.facebook.com/YaoFamilyWines/",
+		yelp: "https://www.yelp.com/biz/yao-family-wines-saint-helena?osq=yao+family+wines",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/yao.jpg"
 	}
 ];
 
