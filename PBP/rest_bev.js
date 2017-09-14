@@ -80,16 +80,16 @@ var rest = [
 		yelp: "https://www.yelp.com/biz/twenty-five-lusk-san-francisco",
 		img: "http://platebyplate.org/wp-content/uploads/2015/07/25_lusk_200.png"
 	},{
-		name: "Mozzeria",
-		link: "http://www.mozzeria.com/",
-		address: "3228 16th St",
-		city: "San Francisco, California, CA 94103",
-		phone: "(415) 489-0963",
-		maps: "",
-		facebook: "https://www.facebook.com/Mozzeria/",
-		yelp: "https://www.yelp.com/biz/mozzeria-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/Mozzeria.png"
-	},{
+	//	name: "Mozzeria",
+	//	link: "http://www.mozzeria.com/",
+	//	address: "3228 16th St",
+	//	city: "San Francisco, California, CA 94103",
+	//	phone: "(415) 489-0963",
+	//	maps: "",
+	//	facebook: "https://www.facebook.com/Mozzeria/",
+	//	yelp: "https://www.yelp.com/biz/mozzeria-san-francisco",
+	//	img: "https://platebyplate.org/wp-content/uploads/2017/07/Mozzeria.png"
+	//},{
 		name: "Asian Box",
 		link: "http://www.asianbox.com/",
 		address: "1401 Burlingame Ave",
@@ -140,16 +140,16 @@ var rest = [
 		yelp: "https://www.yelp.com/biz/farallon-san-francisco",
 		img: "https://platebyplate.org/wp-content/uploads/2017/07/Farallon-logo.png"
 	},{
-		name: "Waystone",
-		link: "http://www.waystonesf.com",
-		address: "992 Market St",
-		city: "San Francisco, CA 94102",
-		phone: "(628) 444-3323",
-		maps: "",
-		facebook: "https://www.facebook.com/waystonesf/",
-		yelp: "https://www.yelp.com/biz/waystone-san-francisco-2",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/waystone-e1500451668852.png"
-	},{
+	//	name: "Waystone",
+	//	link: "http://www.waystonesf.com",
+	//	address: "992 Market St",
+	//	city: "San Francisco, CA 94102",
+	//	phone: "(628) 444-3323",
+	//	maps: "",
+	//	facebook: "https://www.facebook.com/waystonesf/",
+	//	yelp: "https://www.yelp.com/biz/waystone-san-francisco-2",
+	//	img: "https://platebyplate.org/wp-content/uploads/2017/07/waystone-e1500451668852.png"
+	//},{
 		name: "Akiko's",
 		link: "http://akikosrestaurant.com/",
 		address: "431 Bush St",
@@ -160,16 +160,16 @@ var rest = [
 		yelp: "https://www.yelp.com/biz/akikos-restaurant-san-francisco",
 		img: "https://platebyplate.org/wp-content/uploads/2017/08/akikos-e1503916075719.jpg"
 	},{
-		name: "Milkbomb",
-		link: "http://www.MilkbombIceCream.com",
-		address: "1717 17TH STREET",
-		city: "San Francisco, California, CA 94103",
-		phone: "(415) 780-4429",
-		maps: "",
-		facebook: "https://www.facebook.com/milkbombicecream/",
-		yelp: "https://www.yelp.com/biz/milkbomb-ice-cream-san-francisco-3",
-		img: "https://platebyplate.org/wp-content/uploads/2017/09/milkbomb.jpg"
-	},{
+	//	name: "Milkbomb",
+	//	link: "http://www.MilkbombIceCream.com",
+	//	address: "1717 17TH STREET",
+	//	city: "San Francisco, California, CA 94103",
+	//	phone: "(415) 780-4429",
+	//	maps: "",
+	//	facebook: "https://www.facebook.com/milkbombicecream/",
+	//	yelp: "https://www.yelp.com/biz/milkbomb-ice-cream-san-francisco-3",
+	//	img: "https://platebyplate.org/wp-content/uploads/2017/09/milkbomb.jpg"
+	//},{
 		name: "Sno Crave",
 		link: "https://www.facebook.com/snocravesf/",
 		address: "1181 Ocean Ave",
@@ -194,6 +194,16 @@ var rest = [
 
 var bev = [
 	{
+		name: "Scoma's Restaurant & Bar",
+		link: 'http://scomas.com',
+		address: '1965 Al Scoma Way',
+		city: 'San Francisco, California, CA 94133',
+		phone: '(415) 771-4383',
+		maps: "https://www.google.com/maps/place/Scoma's+Restaurant/@37.8089443,-122.4184597,15z/data=!4m5!3m4!1s0x0:0x976bca61020dcc34!8m2!3d37.8089443!4d-122.4184597",
+		facebook: 'https://www.facebook.com/ScomasSF/?ref=br_rs',
+		yelp: 'https://www.yelp.com/biz/scomas-restaurant-san-francisco-3',
+		img: 'https://platebyplate.org/wp-content/uploads/2017/09/scomas.jpg'
+	},{
 		name: "Holy Craft",
 		link: "http://www.holycraftbrewery.com",
 		address: "",
@@ -224,16 +234,16 @@ var bev = [
 		yelp: "",
 		img: "https://platebyplate.org/wp-content/uploads/2017/07/bruce_cost_ginger_ale.png"
 	},{
-		name: "Tommy's Margaritas",
-		link: "http://www.tommysmargarita.com",
-		address: "",
-		city: "San Fransisco",
-		phone: "(415) 575-0800",
-		maps: "",
-		facebook: "https://www.facebook.com/TommysMargarita/",
-		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/tommy_margarita.png"
-	},{
+	//	name: "Tommy's Margaritas",
+	//	link: "http://www.tommysmargarita.com",
+	//	address: "",
+	//	city: "San Fransisco",
+	//	phone: "(415) 575-0800",
+	//	maps: "",
+	//	facebook: "https://www.facebook.com/TommysMargarita/",
+	//	yelp: "",
+	//	img: "https://platebyplate.org/wp-content/uploads/2017/07/tommy_margarita.png"
+	//},{
 		name: "Black Medicine Coffee",
 		link: "http://www.blackmedicine.com/",
 		address: "910 81st Ave",
@@ -244,16 +254,16 @@ var bev = [
 		yelp: "https://www.yelp.com/biz/black-medicine-oakland",
 		img: "https://platebyplate.org/wp-content/uploads/2017/07/Screenshot-2017-07-18-03.03.10-e1500372290902.png"
 	},{
-		name: "Tsingtao Beer",
-		link: "https://www.tsingtaobeer.com/",
-		address: "",
-		city: "",
-		phone: "",
-		maps: "",
-		facebook: "https://www.facebook.com/tsingtaousa/",
-		yelp: "",
-		img: "https://platebyplate.org/wp-content/uploads/2017/07/Tsingtao.png"
-	},{
+	//	name: "Tsingtao Beer",
+	//	link: "https://www.tsingtaobeer.com/",
+	//	address: "",
+	//	city: "",
+	//	phone: "",
+	//	maps: "",
+	//	facebook: "https://www.facebook.com/tsingtaousa/",
+	//	yelp: "",
+	//	img: "https://platebyplate.org/wp-content/uploads/2017/07/Tsingtao.png"
+	//},{
 		name: "Hard Frescos Brewing",
 		link: "http://www.hardfrescos.com/home/",
 		address: "3645 Lawton Street",
@@ -314,16 +324,16 @@ var bev = [
 		yelp: "",
 		img: "https://platebyplate.org/wp-content/uploads/2017/08/wither_hills-e1503917861341.jpg"
 	},{
-		name: "Barebottle Brewing",
-		link: "http://www.barebottle.com/",
-		address: "1525 Cortland Ave",
-		city: "San Francisco, California, CA 94110",
-		phone: "(415) 926-8617",
-		maps: "",
-		facebook: "https://www.facebook.com/Barebottle/",
-		yelp: "https://www.yelp.com/biz/barebottle-brewing-company-san-francisco",
-		img: "https://platebyplate.org/wp-content/uploads/2017/08/barebottle.png"
-	},{
+	//	name: "Barebottle Brewing",
+	//	link: "http://www.barebottle.com/",
+	//	address: "1525 Cortland Ave",
+	//	city: "San Francisco, California, CA 94110",
+	//	phone: "(415) 926-8617",
+	//	maps: "",
+	//	facebook: "https://www.facebook.com/Barebottle/",
+	//	yelp: "https://www.yelp.com/biz/barebottle-brewing-company-san-francisco",
+	//	img: "https://platebyplate.org/wp-content/uploads/2017/08/barebottle.png"
+	//},{
 		name: "Quixote Winery",
 		link: "http://www.quixotewinery.com/",
 		address: "6126 Silverado Trl",
@@ -393,6 +403,16 @@ var bev = [
 		facebook: "https://www.facebook.com/Riboli-Family-Wine-Estates-1528101670816124/",
 		yelp: "",
 		img: "https://platebyplate.org/wp-content/uploads/2017/09/riboli.png"
+	},{
+		name: "Yao Family Wines",
+		link: "http://yaofamilywines.com",
+		address: "929 Main St",
+		city: "Saint Helena, CA 94574",
+		phone: "(707) 244-9949",
+		maps: "",
+		facebook: "https://www.facebook.com/YaoFamilyWines/",
+		yelp: "https://www.yelp.com/biz/yao-family-wines-saint-helena?osq=yao+family+wines",
+		img: "https://platebyplate.org/wp-content/uploads/2017/09/yao.jpg"
 	}
 ];
 
@@ -413,6 +433,9 @@ var createSection = function(r, b) {
 };
 
 createSection(rest, bev);
+
+console.log("REST: ",rest.length);
+console.log("BEV: ",bev.length);
 
 //,{
 //	name: "",

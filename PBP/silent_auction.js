@@ -45,7 +45,7 @@ var donations = [
 		link: "http://www.sfsymphony.org",
 		facebook:"https://www.facebook.com/sfsymphony/",
 		image: "https://platebyplate.org/wp-content/uploads/2017/08/sfsymphony.png",
-		received: false
+		received: true
 	},{
 		donor: "SF Opera",
 		link: "https://sfopera.com",
@@ -272,7 +272,7 @@ var donations = [
 		donor: "Breguet",
 		link: "https://www.breguet.com/en",
 		facebook:"https://www.facebook.com/MontresBreguet/?ref=br_rs",
-		image: "",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/breg.png",
 		received: true
 	},{
 		donor: "Hillside Supper Club",
@@ -284,13 +284,13 @@ var donations = [
 		donor: "Kikori Whiskey",
 		link: "http://www.kikoriwhiskey.com",
 		facebook:"https://www.facebook.com/kikoriwhiskey/",
-		image: "",
-		received: false
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/kikori.png",
+		received: true
 	},{
 		donor: "Kokkari Estiatorio",
 		link: "https://kokkari.com",
 		facebook:"https://www.facebook.com/kokkaricookbook/",
-		image: "https://platebyplate.org/wp-content/uploads/2017/08/kikori-e1503916938778.png",
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/kokkari.jpg",
 		received: true
 	},{
 		donor: "Scoma's Restaurant & Bar",
@@ -395,26 +395,92 @@ var memorabilia = [
 	}
 ];
 
+
+var experiences = [
+	{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Weekend-as-an-Astronaut_no-logo.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/boconcept-logo.png"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Casa-de-Campo-Choice-of-Summer-2018_-no-logo.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/2018-February-London-Fashion-Week_-no-logo.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Cabo-San-Lucas-Villa-for-6_-no-logo.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Montserrat-Villa-for-6_-no-logo.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Lady-gaga-2night_-no-logo.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Hamilton-Tix-Dinner_-no-logo.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/2017-AMA-Bronze_no-logo.jpg"
+	}
+];
+
+var gifts = [
+	{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/Allstate_logo.png"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/boconcept-logo.png"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2016/10/bruce_cost_ginger_ale.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2014/07/fenwick-1.jpg"
+	},{
+		image: "https://platebyplate.org/wp-content/uploads/2017/09/opentabl.jpg"
+	}
+];
+
+
 var createBlob = function(data) {
 	return '\n<!-- Donor: '+ data.donor +' -->\n<div class="item-container">\n<div class="logo-container">\n<a class="logo-link" href="'+ data.link +'"><img class="logo-wide" src="'+ data.image +'" alt="'+ data.donor +'" /></a>\n</div>\n</div>\n';
-}
+};
 
 var createMem = function(data) {
 	return '\n<!-- Memorabilia: '+ data.image.slice(52, 100) +' -->\n<div class="item-container">\n<div class="logo-container">\n<img class="logo-wide" src="'+ data.image +'" alt="'+ data.image.slice(52,100) +'" />\n</div>\n</div>\n';
-}
+};
 
-//donations.map(function(v){
-//	if(v.received) {
-//		console.log(createBlob(v));
-//	}
+var createExp = function(data) {
+	return '\n<!-- Experience: '+ data.image.slice(52, 100) +' -->\n<div class="item-container">\n<div class="logo-container">\n<img class="logo-wide" src="'+ data.image +'" alt="'+ data.image.slice(52,100) +'" />\n</div>\n</div>\n';
+};
+var createGifts = function(data) {
+	return '\n<!-- Gifts: '+ data.image.slice(52, 100) +' -->\n<div class="item-container">\n<div class="logo-container">\n<img class="logo-wide" src="'+ data.image +'" alt="'+ data.image.slice(52,100) +'" />\n</div>\n</div>\n';
+};
+
+var sortFun = function(a, b) {
+	var nameA = a.donor.toUpperCase(); // ignore upper and lowercase
+	var nameB = b.donor.toUpperCase(); // ignore upper and lowercase
+	if (nameA < nameB) {
+		return -1;
+	}
+	if (nameA > nameB) {
+		return 1;
+	}
+	return 0;
+};
+
+donations.sort(sortFun).map(function(v){
+	if(v.received) {
+		console.log(createBlob(v));
+	}
+});
+
+//memorabilia.map(function(v){
+//	console.log(createMem(v));
+//})
+
+//experiences.map(function(v){
+//	console.log(createExp(v));
 //});
 
-memorabilia.map(function(v){
-	console.log(createMem(v));
-})
+//gifts.map(function(v){
+//	console.log(createGifts(v));
+//});
 
-var confirmed = donations.filter(function(val){
-	return val.received == true;
-}).length;
+//var confirmed = donations.filter(function(val){
+//	return val.received == true;
+//}).length;
 
-console.log("\n----------[ Data ]----------\n|  Number of donations:", donations.length, "\n|  Confirmed:", confirmed , "\n|  Unconfirmed:", donations.length - confirmed, "\n----------------------------");
+
+//console.log("\n----------[ Data ]----------\n|  Number of donations:", donations.length, "\n|  Confirmed:", confirmed , "\n|  Unconfirmed:", donations.length - confirmed, "\n----------------------------");
